@@ -1,0 +1,23 @@
+body {
+    background-color: #1A192E;
+    color: aliceblue;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+}
+
+.main-nav a {
+    background-color: #0B0C1A;
+    color: aliceblue;
+}
+
+.linkss li {
+    display: inline-block;
+}
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
